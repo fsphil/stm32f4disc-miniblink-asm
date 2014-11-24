@@ -24,7 +24,7 @@
 	.word hang		/* 3 HardFault */
 	.word hang		/* 4 MemManage */
 	
-#.thumb_func
+.thumb_func
 .global _start
 _start:
 	# Enable the GPIOD clock
@@ -58,7 +58,7 @@ _delay:
 	# Repeat forever
 	b	_loop
 
-#.thumb_func
+.thumb_func
 hang:   b hang
 
 .end
