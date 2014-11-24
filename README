@@ -1,0 +1,9 @@
+
+This is my attempt at making a simple LED blink on an
+STM32F4 Discovery board, using the minimum amount of
+assembly code and the smallest possible build environment.
+
+Requires arm-none-eabi-gcc and openocd.
+
+The linker script was taken from libopencm3.
+
